@@ -11,7 +11,8 @@ const projetos=[
         linkDemo: "",
         linkCode: "https://github.com/llluuuiiisss/Portfolio",
         images: [
-            "https://i.imgur.com/CrYz13y.png"
+            "https://i.imgur.com/Qx0OcLU.png",
+            "https://i.imgur.com/aLyEobd.png"
         ]
     },
     {

@@ -51,11 +51,11 @@ function ProjSingle(props){
                             }
                         </div>
 
-                        <a className="carousel-control-prev" href={"#line"+id} role="button" data-slide="prev">
+                        <a className="carousel-control-prev" href={"#line"+id} role="button" data-slide="prev" title="Recuar imagem.">
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span className="sr-only">Previous</span>
                         </a>
-                        <a className="carousel-control-next" href={"#line"+id} role="button" data-slide="next">
+                        <a className="carousel-control-next" href={"#line"+id} role="button" data-slide="next" title="Avançar imagem.">
                             <span className="carousel-control-next-icon" aria-hidden="true"></span>
                             <span className="sr-only">Next</span>
                         </a>

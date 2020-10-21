@@ -26,7 +26,7 @@ function Contact(){
             <div>
                 <h3 id="phone"><FontAwesomeIcon icon={faPhone} /> +351 936 768 310 </h3>
                 <div className="popup">
-                    <h3><a title="Clique para copiar." onClick={function(){copyElementText('phone');popup('phonePopup');}}><FontAwesomeIcon icon={faCopy} /> </a></h3>
+                    <h3><a title="Clique para copiar o Número." onClick={function(){copyElementText('phone');popup('phonePopup');}}><FontAwesomeIcon icon={faCopy} /> </a></h3>
                     <span className="popuptext" id="phonePopup">Número copiado!</span>
                 </div>
             </div>
@@ -34,14 +34,14 @@ function Contact(){
             <div>
                 <h3 id="mail"><FontAwesomeIcon icon={faEnvelope} /> luisfreitas1999@hotmail.com </h3>
                 <div className="popup">
-                    <h3><a title="Clique para copiar." onClick={function(){copyElementText('mail');popup('mailPopup');}}><FontAwesomeIcon icon={faCopy} /> </a></h3>
+                    <h3><a title="Clique para copiar o Email." onClick={function(){copyElementText('mail');popup('mailPopup');}}><FontAwesomeIcon icon={faCopy} /> </a></h3>
                     <span className="popuptext" id="mailPopup">Email copiado!</span>
                 </div>
             </div>
             <div>
                 <h3 id="local"><FontAwesomeIcon icon={faHome} /> Ponte da Barca, Viana do Castelo </h3>
                 <div className="popup">
-                    <h3><a title="Clique para copiar." onClick={function(){copyElementText('local');popup('adresspopup');}}><FontAwesomeIcon icon={faCopy} /> </a></h3>
+                    <h3><a title="Clique para copiar a Marada." onClick={function(){copyElementText('local');popup('adresspopup');}}><FontAwesomeIcon icon={faCopy} /> </a></h3>
                     <span className="popuptext" id="adresspopup">Morada copiado!</span>
                 </div>
             </div>
