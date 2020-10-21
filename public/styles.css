@@ -1,0 +1,327 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #f6f5f5;
+}
+
+/*
+f6f5f5
+ee6f57
+1f3c88
+070d59
+*/
+
+
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+  font-family: 'Space Mono', monospace;
+  color: #03a9f4;
+}
+
+h1{
+  font-weight: bold;
+  font-family: 'Space Mono', monospace;
+  color:  #03a9f4;
+  font-size: 4rem;
+  padding: 1% 5% 5%;
+
+}
+
+h2{
+  font-size: 2.7rem;
+}
+
+
+h3{
+  font-size: 1.7rem;
+  padding: 5% 0 1%;
+  color: black;
+}
+
+p{
+  color: #8f8f8f;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/*dark section*/
+.dark-section{
+  background-color: #212121;
+  background-image: url("https://i.imgur.com/0RilT0s.png");
+}
+
+
+.dark-section p{
+  color: #f6f5f5;
+  margin: 0;
+}
+
+.dark-section h1{
+  color: #03a9f4;
+  text-shadow: 1px 1px #f6f5f5;
+}
+
+.dark-section h2{
+  color: #03a9f4;
+  text-shadow: 1px 1px #f6f5f5;
+}
+
+.dark-section h3{
+  color: #f6f5f5;
+  text-shadow: 1.5px 1.5px#03a9f4;
+}
+
+/*light section*/
+.light-section{
+  background-color: #f6f5f5;
+  background-image: url("https://i.imgur.com/AUSRfmt.png");
+}
+
+.light-section p{
+  padding: 1% 15% 5%;
+  margin: 0;
+  color: #212121;
+}
+
+.light-section h1{
+  color: #03a9f4;
+  text-shadow: 1.5px 1.5px#212121;
+}
+
+.light-section h2{
+  color: #03a9f4;
+  text-shadow: 1.5px 1.5px#212121;
+}
+
+.light-section h3{
+  color: #212121;
+  text-shadow: 1.5px 1.5px#03a9f4;
+}
+
+
+/* Navbar */
+.navbar{
+  padding: 0 2%;
+  text-shadow: 2px 2px 8px #000;
+  background-image: url("https://sm.mashable.com/mashable_in/photo/default/nasa-galaxy_9pu4.jpg");
+}
+.navbar-brand{
+  padding: 0;
+  font-size: 2.5rem;
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.nav-item{
+  padding: 0;
+  padding: 0 18px;
+}
+
+.nav-link{
+  padding: 0;
+  font-size: 1.2rem;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.3rem;
+}
+
+
+
+.apresentacao{
+  background-image: url("https://sm.mashable.com/mashable_in/photo/default/nasa-galaxy_9pu4.jpg");
+}
+
+.personal-photo-div{
+  padding: 7% 0 4%;
+}
+
+.personal-photo{
+  border-radius: 100%;
+  border-bottom: 3px solid #03a9f4;
+  width: 25%;
+  box-shadow: 0 2px 3px #03a9f4;
+  
+}
+
+.apresentacao h1{
+  padding: 0 0 5%;
+  color: #f6f5f5;
+  text-shadow: 3px 3px#03a9f4;
+  opacity: 0.7;
+}
+
+
+.about-div p{
+  padding: 1% 15% 5%;
+}
+
+.about-div h2{
+  padding: 3% 0 2%;
+}
+
+
+
+.compete-div p{
+  padding: 1% 15% 1%;
+}
+
+.compete-div h2{
+  padding: 6% 0 3%;
+}
+
+.compete-box{
+  padding: 0 0 3%;
+}
+
+
+
+
+
+
+.proj-div p{
+  padding: 1% 0 5%;
+  text-align: left;
+}
+
+.proj-div h2{
+  padding: 3% 0 2%;
+}
+
+
+.btn-code{
+ padding: 1% 0;
+ float: left;
+}
+
+.btn-demo{
+ text-align: right;
+ padding: 1% 0;
+}
+
+.row{
+  padding: 2% 7%;
+}
+
+.contact{
+  padding: 0 10% 2%;
+}
+.contact p{
+  padding: 1% 15% 1%;
+}
+
+.contact h2{
+  padding: 3% 0 2%;
+}
+
+.contact h3{
+  padding: 1% 0 1%;
+}
+
+.btn-download{
+  padding: 2% 0 4%;
+}
+
+.social-networks{
+  padding: 1% 5% 2%;
+}
+
+.social-networks a{
+  padding: 0 1%;
+  font-size: 2rem;
+  color: #212121;
+}
+
+.quadr{
+  width: 100%;
+  height: 110%;
+}
+
+h3 a{
+  cursor: pointer;
+}
+
+#phone,#mail,#local{
+  display: inline;
+}
+
+
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+
+
+
+@media (max-width: 992px) {
+  .apresentacao{
+    padding-top: 10%;
+  }
+  .compete-div h3{
+    padding: 15% 0 2%;
+  }
+}
+
+@media (max-width: 750px) {
+  .apresentacao{
+    padding-top: 15%;
+  }
+  p{
+    font-size: 1.6rem;
+  }
+  h3{
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .apresentacao{
+    padding-top: 20%;
+  }
+}
+
+@media (max-width: 550px) {
+  .apresentacao{
+    padding-top: 25%;
+  }
+}
+
