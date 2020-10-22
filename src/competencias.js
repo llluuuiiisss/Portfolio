@@ -1,4 +1,3 @@
-import React from "react";
 
 const front =["HTML","Css","Bootstrap","Java Script","JQuery","React.JS"];
 const back =["Node.JS","Express.JS","PHP","MongoDB","Mongoose","SQL","RESTful API's","Authentication and Security"];

@@ -1,4 +1,3 @@
-import React from "react";
 
 const projetos=[
 [
@@ -11,8 +10,8 @@ const projetos=[
         linkDemo: "",
         linkCode: "https://github.com/llluuuiiisss/Portfolio",
         images: [
-            "https://i.imgur.com/Qx0OcLU.png",
-            "https://i.imgur.com/aLyEobd.png"
+            "https://i.imgur.com/Sfwkoni.png",
+            "https://i.imgur.com/7uFnjCW.png"
         ]
     },
     {

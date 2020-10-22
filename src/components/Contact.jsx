@@ -1,9 +1,16 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope,faPhone,faHome,faDownload,faCopy } from '@fortawesome/free-solid-svg-icons';
-import { IconName } from "react-icons/md";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+
 
 function Contact(){
+    useEffect(() => {
+        Aos.init({duration:500});
+    }, []);
+
       function copyElementText(id) {
           var text = document.getElementById(id).innerText;
           var elem = document.createElement("textarea");
@@ -21,7 +28,7 @@ function Contact(){
       }
 
     return(
-        <div id="contactos" className="contact dark-section">
+        <div data-aos="fade-up" id="contactos" className="contact dark-section">
             <h2><u>Contactos</u></h2>
             <div>
                 <h3 id="phone"><FontAwesomeIcon icon={faPhone} /> +351 936 768 310 </h3>

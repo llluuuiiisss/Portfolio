@@ -1,12 +1,18 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Comp from "./SingleCompetencia";
-import {front,back,gerais} from "../competencias"
+import {front,back,gerais} from "../competencias";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+
 
 //{front.map(function(item){return(<Comp txt={item}/>);})}
 
 function Compete(){
+
+
     return (
-        <div className ="compete-div dark-section">
+        <div data-aos="fade-up" className ="compete-div dark-section">
             <h2><u>Competências Informáticas</u></h2>
             <div className="compete-box">
                 <div className="container-fluid ">
