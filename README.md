@@ -1,6 +1,5 @@
 # Portfólio
-
-Potfólio pessoal construido utilizando React.JS, Java Script, HTML, Css e Botsrap.
+Personal porfolio made with React.JS, Java Script, HTML, Css and Botsrap.
 
 ## Available Scripts
 
